@@ -1,0 +1,745 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FTC Atomic Robotics 3805</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://ftc3805atomicrobotics.com/xmlrpc.php">
+
+<link rel="alternate" type="application/rss+xml" title="FTC Atomic Robotics 3805 &raquo; Feed" href="http://ftc3805atomicrobotics.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FTC Atomic Robotics 3805 &raquo; Comments Feed" href="http://ftc3805atomicrobotics.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s0.wp.com/_static/??-eJx9j91uwyAMhV9oFG1rI+1i2rMA8YYTjBE/zfr2c1IVaZrGDTrHPh+29ZaU41ghVk1NpdC+MBZdCAPcUuYFXP3tTq6UJ/0P1mxxGVNFFvfJIfA2ynu+Qla2WRtA6HoL0OMYXWizlKWgZ1M8ygflRBj/Rpaiq/RXy99djOYGXHcKajJuVYcbnuU5V8ePZUpAkZ431Rsj2syys7ImS98xqe7vEOrI9biti9FvjjNInZKpe4JgRgMBSGIjjNL0oHbp5e7hmPuq1qYMpSh5CRup6mXQwX3Q+/P5Mp1fp8vby/IDUg3bcg==' type='text/css' media='all' />
+<link rel='stylesheet' id='hemingway-rewritten-fonts-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/_static/??-eJyFj9EKwjAMRX/IWNSx4YP4LV3NakfblDRz7O+t7GUq1pdwL8nhEDUnMBQFoyi5Y8Cs0tSrkly0s16AcWYnZa+yLB73Jued2kBhguQn62JWFiOyK4sf8Yv9I3TRrFKYk6FQU2Og0a2zdhZJik/figt6zfA41v8h8GS0OIpvBQavHddQxt6TLdGqcrWpNUgol+8TscBAHD77C72Gy6Fpzu2pa7tmfAIHNqeX' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4' href='https://s1.wp.com/_static/??-eJx1jEEOgzAMwD60LtooiMu0t5QS0aImrZqwfR+4wAFxsyzL8C/GZ1ZkBVpMScsUWcCNFNkMrgI5UawbmfzDWuOIcrqnF3nAzcJrzLwvDrrkGpC2X7AwpTy4tAdf+rxs29mm79/NvAIYgzq1' type='text/css' media='all' />
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9kFEOwjAIQC9kV6fzYx/Gs2yVLcy21EK36Ontx4xxqSYkhPACPPQSFHpj0xVYTznuCeJjTdXEO/0PUA7H2AlUDv0bNuQFvGiXVLBpRM+aU88mYhCkXA1kLS1bPI8OxOKAuRuh0HXUowWVGGIGvOSrBipw3wboZ4TSso0oSOjMTUVgfELJm8NH8ffDVuriznVzbE/1/tA20wtJH4U3'></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ftc3805atomicroboticsdotcom.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/6TTOf' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="FTC Atomic Robotics 3805" />
+<meta property="og:url" content="http://ftc3805atomicrobotics.com/" />
+<meta property="og:site_name" content="FTC Atomic Robotics 3805" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='http://ftc3805atomicroboticsdotcom.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://ftc3805atomicroboticsdotcom.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://ftc3805atomicrobotics.com/osd.xml" title="FTC Atomic Robotics 3805" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="FTC Atomic Robotics 3805" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Author posts, manage comments, and manage FTC Atomic Robotics 3805." /><meta name="msapplication-task" content="name=Write a post;action-uri=https://wordpress.com/post/ftc3805atomicrobotics.com;icon-uri=http://s2.wp.com/i/icons/post.ico" /><meta name="msapplication-task" content="name=Moderate comments;action-uri=https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/edit-comments.php?comment_status=moderated;icon-uri=http://s0.wp.com/i/icons/comment.ico" /><meta name="msapplication-task" content="name=Upload new media;action-uri=https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/media-new.php;icon-uri=http://s2.wp.com/i/icons/media.ico" /><meta name="msapplication-task" content="name=Blog stats;action-uri=https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/index.php?page=stats;icon-uri=http://s1.wp.com/i/icons/stats.ico" /><meta name="title" content="FTC Atomic Robotics 3805 on WordPress.com" />
+	<style type="text/css">
+			.site-title,
+		.site-description,
+		.site-branding {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+				.site-header-image {
+			background-image: url(http://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/02/cropped-12778915_1077838658947767_1858501329812322347_o1.jpg);
+		}
+		</style>
+	<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog logged-in admin-bar no-customize-support custom-background mp6 customizer-styles-applied highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-image">
+			<div class="site-branding-wrapper">
+				<div class="site-branding">
+					<h1 class="site-title"><a href="http://ftc3805atomicrobotics.com/" rel="home">FTC Atomic Robotics 3805</a></h1>
+					<h2 class="site-description"></h2>
+				</div>
+			</div>
+		</div>
+	</header><!-- #masthead -->
+	<nav id="site-navigation" class="main-navigation clear" role="navigation">
+		<h1 class="menu-toggle" title="Menu"><span class="screen-reader-text">Menu</span></h1>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div class="menu"><ul><li class="current_page_item"><a href="http://ftc3805atomicrobotics.com/">Home</a></li><li class="page_item page-item-1 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/about/">About Our Team</a><ul class='children'><li class="page_item page-item-136"><a href="http://ftc3805atomicrobotics.com/about/robots/">Robots</a></li><li class="page_item page-item-133"><a href="http://ftc3805atomicrobotics.com/about/students/">Students</a></li><li class="page_item page-item-135"><a href="http://ftc3805atomicrobotics.com/about/mentors/">Mentors</a></li><li class="page_item page-item-130"><a href="http://ftc3805atomicrobotics.com/about/history/">History</a></li></ul></li><li class="page_item page-item-107 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/first/">FIRST</a><ul class='children'><li class="page_item page-item-117"><a href="http://ftc3805atomicrobotics.com/first/jr-fll/">Jr. FLL</a></li><li class="page_item page-item-119"><a href="http://ftc3805atomicrobotics.com/first/fll/">FLL</a></li><li class="page_item page-item-123"><a href="http://ftc3805atomicrobotics.com/first/ftc/">FTC</a></li><li class="page_item page-item-124"><a href="http://ftc3805atomicrobotics.com/first/ftc-2/">FRC</a></li></ul></li><li class="page_item page-item-111"><a href="http://ftc3805atomicrobotics.com/business-plan/">Business Plan</a></li><li class="page_item page-item-113 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/resources/">Resources</a><ul class='children'><li class="page_item page-item-137 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/resources/engineering-notebook/">Engineering Notebook</a><ul class='children'><li class="page_item page-item-216"><a href="http://ftc3805atomicrobotics.com/resources/engineering-notebook/2014-2015/">2014-2015</a></li><li class="page_item page-item-152"><a href="http://ftc3805atomicrobotics.com/resources/engineering-notebook/2015-2016/">2015-2016</a></li></ul></li><li class="page_item page-item-138"><a href="http://ftc3805atomicrobotics.com/resources/programming/">Programming</a></li><li class="page_item page-item-140"><a href="http://ftc3805atomicrobotics.com/resources/scouting/">Scouting</a></li><li class="page_item page-item-160"><a href="http://ftc3805atomicrobotics.com/resources/team-handbook/">Team Handbook</a></li></ul></li><li class="page_item page-item-116 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/sponsors/">Sponsors</a><ul class='children'><li class="page_item page-item-128"><a href="http://ftc3805atomicrobotics.com/sponsors/become-a-sponsor/">Become a Sponsor</a></li></ul></li><li class="page_item page-item-115"><a href="http://ftc3805atomicrobotics.com/contact/">Contact</a></li></ul></div>
+		<div id="header-search-toggle">
+			<span class="screen-reader-text">Search</span>
+		</div>
+		<div id="header-search">
+			<form role="search" method="get" class="search-form" action="http://ftc3805atomicrobotics.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>		</div>
+	</nav><!-- #site-navigation -->
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+						
+				
+				
+<article id="post-91" class="post-91 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2016/01/26/state-is-coming-up/" rel="bookmark">State is Coming&nbsp;Up</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2016/01/26/state-is-coming-up/" rel="bookmark"><time class="entry-date published" datetime="2016-01-26T23:17:03+00:00">January 26, 2016</time><time class="updated" datetime="2016-01-26T23:17:46+00:00">January 26, 2016</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2016/01/26/state-is-coming-up/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/91">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">This Saturday our team will be competing in the State FTC competition at the ShowWare Center, Kent. A little over one week ago we were competing at the Inter-League competition and since then we having been working hard modifying the robot and improving the public relations and spirit section of our team. We are all looking forward to having a great time and we hope to succeed in this next endeavor. </span></p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-87" class="post-87 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2016/01/19/inter-league-the-results/" rel="bookmark">Inter-League: The Results</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2016/01/19/inter-league-the-results/" rel="bookmark"><time class="entry-date published" datetime="2016-01-19T22:47:58+00:00">January 19, 2016</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2016/01/19/inter-league-the-results/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/87">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">Last Saturday we competed in  the FTC Inter-League competition. The day started out slow with everyone arriving by 8:00 in the morning. We waited through inspection and judging until qualifying matches started at 12:15. These matches went until 6:30 that evening. At this point we were placing 23rd out of 36 teams present. Then the top four teams picked two team to join them in the elimination rounds and we were the second pick of the top team. This made us excited and very nervous for the next two hours until we ended up as the finalist alliance, just barely losing a best two out of three in the finals. Still we were not sure if we were going to state. Then, at the end of the award ceremony after receiving the Connect Award, the list for teams going on to the state competition was posted and our number was on </span><span style="font-weight:400;">it!</span></p>
+<p><a href="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/image.jpeg" rel="attachment wp-att-89"><img class="alignnone size-medium wp-image-89" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/image.jpeg?w=300&#038;h=300" alt="image" width="300" height="300" /></a></p>
+<p>&nbsp;</p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-45" class="post-45 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2016/01/14/the-bot/" rel="bookmark">The Bot</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2016/01/14/the-bot/" rel="bookmark"><time class="entry-date published" datetime="2016-01-14T23:08:34+00:00">January 14, 2016</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2016/01/14/the-bot/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/45">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">With the interleague-meet coming up in one day our team took the time to take some photos of the robot so that you could see what we will be bringing to the field on Saturday.</span></p>
+<p>This is looking at the back of the robot with the arm raised to a vertical position.</p>
+<p><img class="alignnone size-full wp-image-57" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/dscf3222.jpg?w=676" alt="DSCF3222"   /></p>
+<p>This is the vertical conveyer belt that carries debris from the field up into the collection unit.</p>
+<p><img class="alignnone size-full wp-image-59" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/dscf3221.jpg?w=676" alt="DSCF3221"   /></p>
+<p>This is the collection unit which holds debris until it is time to deliver into the buckets. It can be seen on the end of the extended arm in photo one.</p>
+<p><img class="alignnone size-full wp-image-52" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/dscf3228.jpg?w=676" alt="DSCF3228"   /></p>
+<p>This mechanism attaches the collection unit to the arm, it allows the collection unit to slide to either side of the arm. This enables us to score in whichever goal we are required to score in at the time.</p>
+<p><img class="alignnone size-full wp-image-54" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/dscf3227.jpg?w=676" alt="DSCF3227"   /></p>
+<p>This is the front of the robot and the yellow foam cylinder that you can see lies at the base of the vertical conveyer belt feeding debris into the robot.</p>
+<p><img class="alignnone size-full wp-image-58" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/dscf3230.jpg?w=676" alt="DSCF3230"   /></p>
+<p>This is one of our two identical front wheels. As you can see it has spokes allowing it to grab the bars placed across the ramp.</p>
+<p><img class="alignnone size-full wp-image-48" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/01/dscf3219.jpg?w=676" alt="DSCF3219"   /></p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-43" class="post-43 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2016/01/07/inter-league-meet-in-nine-days/" rel="bookmark">Inter-League Meet in Nine&nbsp;Days!</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2016/01/07/inter-league-meet-in-nine-days/" rel="bookmark"><time class="entry-date published" datetime="2016-01-07T22:23:03+00:00">January 7, 2016</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2016/01/07/inter-league-meet-in-nine-days/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/43">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">On Saturday the sixteenth we will be competing in the Interleague competition at Cascade High School. The leagues present will be Babbage, Ritchie and Spencer. This meet will be the first meet that eliminates teams from the running and it will determine who goes on to the state competition. We are working very hard and hope to see you there!</span></p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-37" class="post-37 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2015/12/15/league-meet-two/" rel="bookmark">League Meet Two</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2015/12/15/league-meet-two/" rel="bookmark"><time class="entry-date published" datetime="2015-12-15T23:10:33+00:00">December 15, 2015</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2015/12/15/league-meet-two/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/37">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">Last Saturday we competed in our second league meet of the FTC robotics season. The meet was held at King&#8217;s High School and out of thirteen teams we placed fourth. This was a big improvement from our last league meet seeing as we won four out of five matches. Our hard work paid off and the robot functioned as intended. However, there is still room to improve and at this very moment our entire team is working on upgrading the robot and our strategies in preparation for Interleague.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight:400;">This is our mascot being carried around the field during competition:<img class="alignnone size-full wp-image-39" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2015/12/img_5389.jpg?w=676" alt="IMG_5389"   /></span></p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-32" class="post-32 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2015/12/08/league-meet-two-comin-up/" rel="bookmark">League Meet Two Comin&#8217;&nbsp;Up!</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2015/12/08/league-meet-two-comin-up/" rel="bookmark"><time class="entry-date published" datetime="2015-12-08T23:59:57+00:00">December 8, 2015</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2015/12/08/league-meet-two-comin-up/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/32">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">This upcoming Saturday we will be competing against the other members of our league again. Since the last meet, our team has been hard at work improving the robot and testing it in order to bring our best to the field. In the photo below you can see some of our team members doing just that.</span></p>
+<p><a href="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2015/12/img_5308.jpg" rel="attachment wp-att-31"><img class="alignnone size-medium wp-image-31" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2015/12/img_5308.jpg?w=300&#038;h=225" alt="IMG_5308" width="300" height="225" /></a></p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-27" class="post-27 post type-post status-publish format-image hentry category-uncategorized post_format-post-format-image">
+	<div class="entry-content">
+		<p><img class="alignnone size-full wp-image-28" src="https://ftc3805atomicroboticsdotcom.files.wordpress.com/2015/11/robotcircle.jpg?w=676" alt="RobotCircle"   /></p>
+			</div><!-- .entry-content -->
+	<header class="entry-header">
+					<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2015/11/24/league-meet-trouble-shooting/" rel="bookmark">League Meet Trouble&nbsp;Shooting</a></h1>				<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2015/11/24/league-meet-trouble-shooting/" rel="bookmark"><time class="entry-date published" datetime="2015-11-24T23:53:10+00:00">November 24, 2015</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2015/11/24/league-meet-trouble-shooting/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/27">Edit</a></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-23" class="post-23 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2015/11/24/our-first-league-meet/" rel="bookmark">Our First League&nbsp;Meet</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2015/11/24/our-first-league-meet/" rel="bookmark"><time class="entry-date published" datetime="2015-11-24T23:47:30+00:00">November 24, 2015</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2015/11/24/our-first-league-meet/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/23">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">This Saturday we competed at our first league meet and it was not quite the success that we had hoped it would be. Held at King&#8217;s Schools in North Seattle, the competition commenced at 1:45. We encountered a major setback in our first match. While climbing the lower mountain and attempting to deliver a full load to the high goal, our robot fell onto his back. Plagued by faulty wiring and a bent axle we struggled through the next four matches and in the final match of the day we were completely immobile. You can be sure that this setback has all of the Atomic Robotics members geared to work harder than ever in these next few weeks.</span></p>
+<p><span style="font-weight:400;">Meet Summary</span></p>
+<p><span style="font-weight:400;">Qualifying Points: 4</span></p>
+<p><span style="font-weight:400;">Placement: 10th</span></p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-18" class="post-18 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+							<h1 class="entry-title"><a href="http://ftc3805atomicrobotics.com/2015/11/05/welcome-to-our-website/" rel="bookmark">Welcome to our&nbsp;website!</a></h1>						<div class="entry-meta">
+			<span class="posted-on"><a href="http://ftc3805atomicrobotics.com/2015/11/05/welcome-to-our-website/" rel="bookmark"><time class="entry-date published" datetime="2015-11-05T23:15:22+00:00">November 5, 2015</time></a></span><span class="byline"><span class="sep"> / </span><span class="author vcard"><a class="url fn n" href="http://ftc3805atomicrobotics.com/author/atomicrobotics3805/">atomicrobotics3805</a></span></span>						<span class="comments-link"><span class="sep"> / </span><a href="http://ftc3805atomicrobotics.com/2015/11/05/welcome-to-our-website/#respond">Leave a comment</a></span>
+						<span class="edit-link"><span class="sep"> / </span><a class="post-edit-link" href="https://wordpress.com/post/ftc3805atomicrobotics.com/18">Edit</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="font-weight:400;">Hi! We are FTC Team 3805 Atomic Robotics. Our goal is to build a world class robot and share STEM with our community. On this website we will be posting updates about the robot and our team throughout the year. Follow along as we compete in this year&#8217;s FTC season. </span></p>
+<p><span style="font-weight:400;">~Team 3805,  Atomic Robotics </span></p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+			
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	<div id="secondary" class="widget-area" role="complementary">
+		<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://ftc3805atomicrobotics.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/26/state-is-coming-up/">State is Coming&nbsp;Up</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/19/inter-league-the-results/">Inter-League: The Results</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/14/the-bot/">The Bot</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/07/inter-league-meet-in-nine-days/">Inter-League Meet in Nine&nbsp;Days!</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2015/12/15/league-meet-two/">League Meet Two</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1></aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+			<li><a href='http://ftc3805atomicrobotics.com/2016/01/'>January 2016</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/12/'>December 2015</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/11/'>November 2015</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://ftc3805atomicrobotics.com/category/uncategorized/" >Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/">Site Admin</a></li>			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=129f7943d5">Log out</a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</aside>	</div><!-- #secondary -->
+
+	</div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+			<div id="tertiary" class="widget-areas clear" role="complementary">
+					<div class="widget-area">
+				<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://ftc3805atomicrobotics.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/26/state-is-coming-up/">State is Coming&nbsp;Up</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/19/inter-league-the-results/">Inter-League: The Results</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/14/the-bot/">The Bot</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/07/inter-league-meet-in-nine-days/">Inter-League Meet in Nine&nbsp;Days!</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2015/12/15/league-meet-two/">League Meet Two</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-3" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1></aside><aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+			<li><a href='http://ftc3805atomicrobotics.com/2016/01/'>January 2016</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/12/'>December 2015</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/11/'>November 2015</a></li>
+		</ul>
+		</aside><aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://ftc3805atomicrobotics.com/category/uncategorized/" >Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-3" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/">Site Admin</a></li>			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=129f7943d5">Log out</a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a></li>			</ul>
+			</aside>			</div>
+							</div><!-- #tertiary -->
+		<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+			<span class="sep"> | </span>
+			<a href="https://wordpress.com/themes/hemingway-rewritten/" title="Learn more about this theme">The Hemingway Rewritten Theme</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- wpcom_wp_footer -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		jQuery(document).ready( function($) {
+			function doFollowingHover() {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				$('#wp-admin-bar-follow > a').bind( 'mouseover.unfollow', function() {
+
+					$(this).html( "Unfollow" ).parent( 'li' ).addClass( 'unfollow' );
+				});
+				$('#wp-admin-bar-follow > a').bind( 'mouseout.unfollow', function() {
+					$(this).html( "Following" ).parent( 'li' ).removeClass( 'unfollow' );
+				});
+			}
+							doFollowingHover();
+			
+			$('#wp-admin-bar-follow > a').click( function( e ) {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				e.preventDefault();
+
+				var link = $( this ), li = $( '#wp-admin-bar-follow' ), timeout = 0;
+
+				if ( li.hasClass( 'subscribed' ) ) {
+					li.removeClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Follow" );
+
+					$('body').append( $( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble' );
+
+					var action = 'ab_unsubscribe_from_blog';
+				} else {
+					li.addClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Following" );
+
+						var left = 131 - link.width();
+						li.append( $( 'div.wpcom-bubble' ).css( { left: '-' + left + 'px' } ) );
+						$( 'div.bubble-txt', 'div.wpcom-bubble' ).html( "New posts from this blog will now appear in <a target=\"_blank\" href=\"http:\/\/wordpress.com\/\">your reader<\/a>. You can manage email alerts from your <a target=\"_blank\" href=\"http:\/\/wordpress.com\/following\/edit\/\">subscriptions page<\/a>." );
+
+						$( 'div.wpcom-bubble.action-bubble' ).addClass( 'fadein' );
+
+						setTimeout( function() {
+							$('body').on( 'click.bubble touchstart.bubble', function(e) {
+								if ( !$(e.target).hasClass('wpcom-bubble') && !$(e.target).parents( 'div.wpcom-bubble' ).length )
+									hideBubble();
+							});
+							setTimeout( hideBubble, 15000 );
+						}, 500 );
+
+					var action = 'ab_subscribe_to_blog';
+					$('#wp-admin-bar-follow > a').bind( 'mouseout.shift', function() {
+						doFollowingHover();
+						$(this).unbind( '.shift' );
+					});
+				}
+
+				var nonce = link.attr( 'href' ).split( '_wpnonce=' );
+				nonce = nonce[1];
+
+				$.post( "http:\/\/ftc3805atomicrobotics.com\/wp-admin\/admin-ajax.php", {
+					'action': action,
+					'_wpnonce': nonce,
+					'source': 'admin_bar',
+					'blog_id': 101980591				});
+			});
+		});
+	/* ]]> */
+	</script>
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201609y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":"0434274ff118de8fb4b8c2581ac0e701"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<div id="report-form-window" style="display:none;"></div><script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/ftc3805atomicroboticsdotcom.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/ftc3805atomicroboticsdotcom.wordpress.com\/wp-login.php?action=logout&_wpnonce=129f7943d5","homeURL":"http:\/\/ftc3805atomicrobotics.com\/","postID":"91","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"1","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1424115551j'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"101980591","blog_subdomain":"ftc3805atomicroboticsdotcom","user_id":"96878246"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"http:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpNotesArgs = {"cacheBuster":"20150825","iframeUrl":"https:\/\/widgets.wp.com\/notifications\/","iframeAppend":"2","iframeScroll":"no","wide":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcom_tos_report_form = {"ajaxurl":"\/wp-admin\/admin-ajax.php","isLoggedoutUser":"","post_ID":null,"current_url":"http:\/\/ftc3805atomicrobotics.com","report_this_content":"Report this content"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"101980591","siteName":"FTC Atomic Robotics 3805","siteURL":"http:\/\/ftc3805atomicrobotics.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/void.gif' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"1","canCustomizeSite":"1","isFollowing":"1","themeSlug":"pub\/hemingway-rewritten","themeURL":"https:\/\/wordpress.com\/themes\/hemingway-rewritten\/","xhrURL":"http:\/\/ftc3805atomicrobotics.com\/wp-admin\/admin-ajax.php","nonce":"98f756bd73","isSingular":"","isFolded":"","customizeLink":"https:\/\/ftc3805atomicroboticsdotcom.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fftc3805atomicroboticsdotcom.wordpress.com%2F","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Hemingway Rewritten","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage Sites I Follow"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJydUttuwyAM/aFRtK6Vtodp30KI2zgJmIFJ0r+vkdr0oirt9oKNzzk2l6PHoCx5Bs+6TbqGAS2EadWmNy0QetvnGlLBuEHbVTTNySOSqR16VZm4kngmnAe4rEKf9+iTTg1FtnRStb8Z4mFlD7aHl0WpR8kaGtVcX9DOBxPcklOXg95puAEnA0KutGTo96M5qAhjRBa8DH5Q/nsTbwbcG0b6hzZ1GFSPvlM7sjmpHU4LNwdHLWoeb+JTfgscjO3Ua+wb1rUfsq8hJksRrg1xzahMMZOHR4YR2OXExjZLX+uJ4bQK7Bx5Nayf8mcDLJOZkjx+EIPJY0d3v3/Jcc4khlhG0QAxFtteaksdbPFH6TBnwv5x3++b7cd6s/3cfrVHlappRQ=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['identifyUser', 96878246, 'atomicrobotics3805']);
+_tkq.push(['storeContext', {'blog_id':'101980591','blog_tz':'0','user_lang':'en','blog_lang':'en'}]);
+_stq.push(['view', {'blog':'101980591','v':'wpcom','tz':'0','user':'1','user_id':'96878246','subd':'ftc3805atomicroboticsdotcom'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1zNDZ8S252Wis9XUQyb3YrcUVIU2R0VH5TdXIyfFgyfjVBN0lIeEpROGxdTnl0NVVYdjNTZURNdE02OUdKNkUyY0E5bXUzSWdEL3dpVCt8Py5wWUJ6elA3Smh2MlZBbmdlaXVmRC1iSiVYNkVLWEV0S2QuLUlYVD9FSVJNLV9MdzZ0VXp2bkFteHVqU3RDZnhmfkhQM202TExVMGovUmo0dkxWR3phOVsvd0VER1dzY2NJV1B6MldGNCw1Nm5YcmVSYy9db0Mtfix1fkYxSWFfbUl8fER2LFIuczJGR2ldb2gsaFhoOXVTRWhJYllpKy9daXAuNDlmMWk0UVZ8RExRSTB8dHRMZm5pZTJOdz82SnJbLGltMHNFR0RYTFZyQXBONUdyeS0y'}]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+		<div id="wpadminbar" class="nojq nojs ltr">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+						<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+			
+		<li id="wp-admin-bar-blog" class="menupop my-sites"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/stats/ftc3805atomicrobotics.com">My Site</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-blog-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-blog-info" class="current-site">		<div class="ab-item ab-empty-item" ><div class="ab-site-icon"></div><span class="ab-site-title">FTC Atomic Robotics &hellip;</span><span class="ab-site-description">ftc3805atomicrobotics.com</span></div>		</li>
+		<li id="wp-admin-bar-new-site"><a class="ab-item"  href="https://wordpress.com/start?ref=admin-bar-logged-in">+ Add New WordPress</a>		</li>
+		<li id="wp-admin-bar-blog-stats" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/stats/ftc3805atomicrobotics.com">Stats <img style="width: 95px; margin: 0; float: right;" src="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-includes/charts/admin-bar-hours-scale-2x.php?masterbar=1" alt="Stats" title="Showing site views per hour for the last 48 hours. Click for full Site Stats." /></a>		</li>
+		<li id="wp-admin-bar-plan" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/plans/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-plan">Plan</a><a href="https://wordpress.com/plans/ftc3805atomicrobotics.com" class="secondary" id="wp-admin-bar-plan-badge">Free</a></div>		</li>		</ul>
+			<ul id="wp-admin-bar-publish" class="ab-submenu">
+			
+		<li id="wp-admin-bar-publish-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Publish</div>		</li>
+		<li id="wp-admin-bar-new-post" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/posts/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-post">Blog Posts</a><a href="https://wordpress.com/post/ftc3805atomicrobotics.com" class="secondary" id="wp-admin-bar-new-post">Add</a></div>		</li>
+		<li id="wp-admin-bar-new-page" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/pages/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-page">Pages</a><a href="https://wordpress.com/page/ftc3805atomicrobotics.com" class="secondary" id="wp-admin-bar-new-page">Add</a></div>		</li>
+		<li id="wp-admin-bar-new-jetpack-testimonial" class="mb-icon"><a class="ab-item"  href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/edit.php?post_type=jetpack-testimonial">Testimonials</a>		</li>
+		<li id="wp-admin-bar-new-jetpack-portfolio" class="mb-icon"><a class="ab-item"  href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/edit.php?post_type=jetpack-portfolio">Portfolio</a>		</li>		</ul>
+			<ul id="wp-admin-bar-look-and-feel" class="ab-submenu">
+			
+		<li id="wp-admin-bar-look-and-feel-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Personalize</div>		</li>
+		<li id="wp-admin-bar-themes" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/design/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-themes">Themes</a><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fftc3805atomicroboticsdotcom.wordpress.com%2F" class="secondary" id="wp-admin-bar-cmz">Customize</a></div>		</li>
+		<li id="wp-admin-bar-menus" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/menus/ftc3805atomicrobotics.com">Menus</a>		</li>		</ul>
+			<ul id="wp-admin-bar-configuration" class="ab-submenu">
+			
+		<li id="wp-admin-bar-configuration-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Configure</div>		</li>
+		<li id="wp-admin-bar-sharing" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/sharing/ftc3805atomicrobotics.com">Sharing</a>		</li>
+		<li id="wp-admin-bar-users-toolbar" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/people/team/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-people">People</a><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/users.php?page=wpcom-invite-users" class="secondary" id="wp-admin-bar-people-add">Add</a></div>		</li>
+		<li id="wp-admin-bar-domains" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/domains/ftc3805atomicrobotics.com">Domains</a>		</li>
+		<li id="wp-admin-bar-blog-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/settings/general/ftc3805atomicrobotics.com">Settings</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-jumptotop-button-menu"><a class="ab-item"  href="#"><div id="jumptotop"><span class="noticon noticon-top"></span></div></a>		</li>
+		<li id="wp-admin-bar-newdash" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/">Reader</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-newdash-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-streams-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Streams</div>		</li>
+		<li id="wp-admin-bar-following" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/" class="ab-item primary mb-icon" id="wp-admin-bar-followed-sites">Followed Sites</a><a href="https://wordpress.com/following/edit" class="secondary">Manage</a></div>		</li>
+		<li id="wp-admin-bar-discover-discover" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/discover">Discover</a>		</li>
+		<li id="wp-admin-bar-discover-recommended-blogs" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/recommendations">Recommendations</a>		</li>
+		<li id="wp-admin-bar-my-activity-my-likes" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/activities/likes">My Likes</a>		</li>		</ul>
+	</div>		</li>		</ul>
+			<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+			
+		<li id="wp-admin-bar-notes" class="menupop">		<div class="ab-item ab-empty-item" ><span id="wpnt-notes-unread-count" class="wpnt-loading wpn-read"></span><span class="noticon noticon-bell"></span><span class="ab-text">Notifications</span></div><div id="wpnt-notes-panel2" style="display:none" lang="en" dir="ltr"><div class="wpnt-notes-panel-header"><span class="wpnt-notes-header"></span><span class="wpnt-notes-panel-link"></span></div></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/me/"><img alt='' src='http://0.gravatar.com/avatar/0434274ff118de8fb4b8c2581ac0e701?s=32&#038;d=mm&#038;r=G' class='avatar avatar-32' height='32' width='32' /><span class="ab-text">Me</span></a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-user-actions" class="ab-submenu">
+			
+		<li id="wp-admin-bar-user-info" class="user-info user-info-item">		<div class="ab-item ab-empty-item" tabindex="-1"><img alt='' src='http://0.gravatar.com/avatar/0434274ff118de8fb4b8c2581ac0e701?s=128&#038;d=mm&#038;r=G' class='avatar avatar-128' height='128' width='128' /><span class="display-name">atomicrobotics3805</span><a class="username" href="http://gravatar.com/atomicrobotics3805">@atomicrobotics3805</a><form action="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fftc3805atomicrobotics.com%2F&amp;_wpnonce=129f7943d5" method="post"><button class="ab-sign-out" type="submit">Sign Out</button></form></div>		</li>
+		<li id="wp-admin-bar-profile-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Profile</div>		</li>
+		<li id="wp-admin-bar-my-profile" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me">My Profile</a>		</li>
+		<li id="wp-admin-bar-account-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/account">Account Settings</a>		</li>
+		<li id="wp-admin-bar-billing" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/billing">Billing History</a>		</li>
+		<li id="wp-admin-bar-security" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/security">Security</a>		</li>
+		<li id="wp-admin-bar-notifications" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/notifications">Notifications</a>		</li>
+		<li id="wp-admin-bar-special-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Special</div>		</li>
+		<li id="wp-admin-bar-get-apps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/get-apps">Get Apps</a>		</li>
+		<li id="wp-admin-bar-next-steps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/next">Next Steps</a>		</li>
+		<li id="wp-admin-bar-help" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/help">Help</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-ab-new-post"><a class="ab-item"  href="http://wordpress.com/post/ftc3805atomicrobotics.com"></a>		</li>		</ul>
+				</div>
+							<a class="screen-reader-shortcut" href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=129f7943d5">Log Out</a>
+					</div>
+
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var clickDebugLink;
+
+jQuery(document).ready( function($) {
+	var single = false, w = 1000,
+		supe = false;
+
+	$(document.body).load(function(){ $('#wpadminbar img.grav-hashed').removeClass('grav-hashed'); }); // hack to hide the gravatar hovercard
+
+	if ( single && supe )
+		w = 1385;
+	else if ( supe )
+		w = 1200;
+
+	// debug bar extra
+	clickDebugLink = function( parent_id, obj ) {
+
+		$('#'+parent_id).children('div').hide();
+
+		document.getElementById( obj.href.substr( obj.href.indexOf( '#' ) + 1 ) ).style.display = 'block';
+		$( obj.href.substr( obj.href.indexOf( '#' ) ) ).show()
+
+		$(obj).parent().addClass('current').siblings('li').removeClass('current');
+
+		return false;
+	};
+
+	$( '#wpadminbar #wp-admin-bar-shortlink' ).click( function() {
+		$( '#adminbar-shortlink-input' ).select();
+	});
+
+	// skip tap-to-hover on site switcher for mobile
+	if ( 'ontouchstart' in window ) {
+		$('#wp-admin-bar-switch-site').on( 'touchstart', function( event ) {
+			if ( $( window ).width() > 782 ) {
+				return;
+			}
+			event.stopPropagation();
+			$( event.target ).first( 'a' ).click();
+		});
+	}
+
+});
+/* ]]> */
+</script>
+	<div class="wpcom-bubble action-bubble">
+		<div class="bubble-txt"></div>
+	</div>
+	<script type="text/javascript">function hideBubble() { jQuery('body').append( jQuery( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble touchstart.bubble' ); jQuery(document).off( 'scroll.bubble' ); };</script>
+		<script type="text/javascript">
+	jQuery( '#wp-admin-bar-jumptotop-button-menu a' ).click( function( e ) {
+		e.preventDefault();
+		jQuery( 'html, body' ).animate( { scrollTop: 0 }, 'fast' );
+	} );
+	function hideShowTbJumpToTop() {
+		var total_width = 0;
+		// Calculate total width taken by items minus our button to see if it'll
+		// overlap with other toolbar menus.
+		jQuery( '#wp-admin-bar-root-default > li' ).each( function() {
+			var self = jQuery( this );
+			if ( 'wp-admin-bar-jumptotop-button-menu' != self.attr( 'id' ) )
+				total_width += self.width();
+		});
+		if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() >= 350 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) < 0 ) {
+			if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 )
+			   return;
+			jQuery( '#jumptotop' ).animate( { 'top': 0 }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() < 1 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) >= 0 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		}
+	}
+	// handle on page load if auto scrolling to a position
+	hideShowTbJumpToTop();
+	// bind to scrolll event
+	var jumpToTopTimer = null;
+	jQuery( window ).scroll( function() {
+		clearTimeout( jumpToTopTimer );
+		jumpToTopTimer = setTimeout( jumpToTopRefresh, 150 );
+	} );
+	var jumpToTopRefresh = function() {
+		hideShowTbJumpToTop();
+	};
+	</script>
+	<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
