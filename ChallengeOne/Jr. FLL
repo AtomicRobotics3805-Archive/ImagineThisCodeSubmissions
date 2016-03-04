@@ -1,0 +1,882 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jr. FLL | FTC Atomic Robotics 3805</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://ftc3805atomicrobotics.com/xmlrpc.php">
+
+<link rel="alternate" type="application/rss+xml" title="FTC Atomic Robotics 3805 &raquo; Feed" href="http://ftc3805atomicrobotics.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FTC Atomic Robotics 3805 &raquo; Comments Feed" href="http://ftc3805atomicrobotics.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s1.wp.com/_static/??-eJyFUNFOxDAM+yF6FXA3iQfEt7RdYNmatmpSjvt7sk1MOiHKSxW7dmzFXosJOQkksdRMie0DE1smjHArNc8Q5B6dAvOD/cPWPIeKRTAres8x5mtPP+VPqMY37yOoW24RDjmmENuotBJ2dDyhLuATYfotmdmK/i8+fx1DLzfisrpAiguL2VBP7kZNNd5V/Q+ZzIF3E9qUZWt3DL1tIVdQnoqTVUEwooMIpLKejcrw41rHSZt3Y/aq3pcKzEZfwkZGJg36px6tVfarbMe/Y1brG70+ni/D+Xm4vDzN3/+i2do=' type='text/css' media='all' />
+<link rel='stylesheet' id='hemingway-rewritten-fonts-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/_static/??-eJyFj9EKwjAMRX/IWNSx4YP4LV3NakfblDRz7O+t7GUq1pdwL8nhEDUnMBQFoyi5Y8Cs0tSrkly0s16AcWYnZa+yLB73Jued2kBhguQn62JWFiOyK4sf8Yv9I3TRrFKYk6FQU2Og0a2zdhZJik/figt6zfA41v8h8GS0OIpvBQavHddQxt6TLdGqcrWpNUgol+8TscBAHD77C72Gy6Fpzu2pa7tmfAIHNqeX' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4' href='https://s0.wp.com/_static/??-eJx9jsEOwjAMQ3+IEsEG2gXxLVlX2qA2rZJs/D7bATggONmyni3Dozlf2QIblNm1PEdiBZwKsRtRoKBakNW5ugQRmoJ+sr1X3cGPCW9UeZt4u394q2rulpEENKEQx5d+tSyFsr5IPcRcR8wbcC2XQ386990wHLv7Eyw2Tzw=' type='text/css' media='all' />
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9kFEOwjAIQC9kV6fzYx/Gs2yVLcy21EK36Ontx4xxqSYkhPACPPQSFHpj0xVYTznuCeJjTdXEO/0PUA7H2AlUDv0bNuQFvGiXVLBpRM+aU88mYhCkXA1kLS1bPI8OxOKAuRuh0HXUowWVGGIGvOSrBipw3wboZ4TSso0oSOjMTUVgfELJm8NH8ffDVuriznVzbE/1/tA20wtJH4U3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ftc3805atomicroboticsdotcom.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="http://ftc3805atomicrobotics.com/first/jr-fll/" />
+<link rel='shortlink' href='http://wp.me/P6TTOf-1T' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=http%3A%2F%2Fftc3805atomicrobotics.com%2Ffirst%2Fjr-fll%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=http%3A%2F%2Fftc3805atomicrobotics.com%2Ffirst%2Fjr-fll%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Jr. FLL" />
+<meta property="og:url" content="http://ftc3805atomicrobotics.com/first/jr-fll/" />
+<meta property="og:description" content="It’s never too early to discover STEM. FIRST LEGO League Jr.* is designed to introduce STEM concepts to kids ages 6 to 9 while exciting them through a brand they know and love − LEGO®. Guided by tw…" />
+<meta property="article:published_time" content="2016-02-27T21:09:08+00:00" />
+<meta property="article:modified_time" content="2016-02-27T21:53:33+00:00" />
+<meta property="og:site_name" content="FTC Atomic Robotics 3805" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='http://ftc3805atomicroboticsdotcom.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://ftc3805atomicroboticsdotcom.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://ftc3805atomicrobotics.com/osd.xml" title="FTC Atomic Robotics 3805" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="FTC Atomic Robotics 3805" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Author posts, manage comments, and manage FTC Atomic Robotics 3805." /><meta name="msapplication-task" content="name=Edit page;action-uri=https://wordpress.com/page/ftc3805atomicrobotics.com/117;icon-uri=http://s0.wp.com/i/icons/page.ico" /><meta name="msapplication-task" content="name=Write a post;action-uri=https://wordpress.com/post/ftc3805atomicrobotics.com;icon-uri=http://s2.wp.com/i/icons/post.ico" /><meta name="msapplication-task" content="name=Moderate comments;action-uri=https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/edit-comments.php?comment_status=moderated;icon-uri=http://s0.wp.com/i/icons/comment.ico" /><meta name="msapplication-task" content="name=Upload new media;action-uri=https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/media-new.php;icon-uri=http://s2.wp.com/i/icons/media.ico" /><meta name="msapplication-task" content="name=Blog stats;action-uri=https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/index.php?page=stats;icon-uri=http://s1.wp.com/i/icons/stats.ico" /><meta name="title" content="Jr. FLL | FTC Atomic Robotics 3805 on WordPress.com" />
+<meta name="description" content="It’s never too early to discover STEM. FIRST LEGO League Jr.* is designed to introduce STEM concepts to kids ages 6 to 9 while exciting them through a brand they know and love − LEGO®. Guided by two or more adult Coaches, teams (up to 6 members, grades K-3) explore a real-world scientific problem such as food&hellip;" />
+	<style type="text/css">
+			.site-title,
+		.site-description,
+		.site-branding {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+				.site-header-image {
+			background-image: url(http://ftc3805atomicroboticsdotcom.files.wordpress.com/2016/02/cropped-12778915_1077838658947767_1858501329812322347_o1.jpg);
+		}
+		</style>
+	<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="page page-id-117 page-child parent-pageid-107 page-template-default logged-in admin-bar no-customize-support custom-background mp6 customizer-styles-applied highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-image">
+			<div class="site-branding-wrapper">
+				<div class="site-branding">
+					<h1 class="site-title"><a href="http://ftc3805atomicrobotics.com/" rel="home">FTC Atomic Robotics 3805</a></h1>
+					<h2 class="site-description"></h2>
+				</div>
+			</div>
+		</div>
+	</header><!-- #masthead -->
+	<nav id="site-navigation" class="main-navigation clear" role="navigation">
+		<h1 class="menu-toggle" title="Menu"><span class="screen-reader-text">Menu</span></h1>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div class="menu"><ul><li ><a href="http://ftc3805atomicrobotics.com/">Home</a></li><li class="page_item page-item-1 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/about/">About Our Team</a><ul class='children'><li class="page_item page-item-136"><a href="http://ftc3805atomicrobotics.com/about/robots/">Robots</a></li><li class="page_item page-item-133"><a href="http://ftc3805atomicrobotics.com/about/students/">Students</a></li><li class="page_item page-item-135"><a href="http://ftc3805atomicrobotics.com/about/mentors/">Mentors</a></li><li class="page_item page-item-130"><a href="http://ftc3805atomicrobotics.com/about/history/">History</a></li></ul></li><li class="page_item page-item-107 page_item_has_children current_page_ancestor current_page_parent"><a href="http://ftc3805atomicrobotics.com/first/">FIRST</a><ul class='children'><li class="page_item page-item-117 current_page_item"><a href="http://ftc3805atomicrobotics.com/first/jr-fll/">Jr. FLL</a></li><li class="page_item page-item-119"><a href="http://ftc3805atomicrobotics.com/first/fll/">FLL</a></li><li class="page_item page-item-123"><a href="http://ftc3805atomicrobotics.com/first/ftc/">FTC</a></li><li class="page_item page-item-124"><a href="http://ftc3805atomicrobotics.com/first/ftc-2/">FRC</a></li></ul></li><li class="page_item page-item-111"><a href="http://ftc3805atomicrobotics.com/business-plan/">Business Plan</a></li><li class="page_item page-item-113 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/resources/">Resources</a><ul class='children'><li class="page_item page-item-137 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/resources/engineering-notebook/">Engineering Notebook</a><ul class='children'><li class="page_item page-item-216"><a href="http://ftc3805atomicrobotics.com/resources/engineering-notebook/2014-2015/">2014-2015</a></li><li class="page_item page-item-152"><a href="http://ftc3805atomicrobotics.com/resources/engineering-notebook/2015-2016/">2015-2016</a></li></ul></li><li class="page_item page-item-138"><a href="http://ftc3805atomicrobotics.com/resources/programming/">Programming</a></li><li class="page_item page-item-140"><a href="http://ftc3805atomicrobotics.com/resources/scouting/">Scouting</a></li><li class="page_item page-item-160"><a href="http://ftc3805atomicrobotics.com/resources/team-handbook/">Team Handbook</a></li></ul></li><li class="page_item page-item-116 page_item_has_children"><a href="http://ftc3805atomicrobotics.com/sponsors/">Sponsors</a><ul class='children'><li class="page_item page-item-128"><a href="http://ftc3805atomicrobotics.com/sponsors/become-a-sponsor/">Become a Sponsor</a></li></ul></li><li class="page_item page-item-115"><a href="http://ftc3805atomicrobotics.com/contact/">Contact</a></li></ul></div>
+		<div id="header-search-toggle">
+			<span class="screen-reader-text">Search</span>
+		</div>
+		<div id="header-search">
+			<form role="search" method="get" class="search-form" action="http://ftc3805atomicrobotics.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>		</div>
+	</nav><!-- #site-navigation -->
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+				
+<article id="post-117" class="post-117 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Jr. FLL</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p style="background:white;margin:0 0 7.15pt;"><strong><span style="font-size:13.5pt;font-family:'Arial', 'sans-serif';font-weight:normal;">It’s never too early to discover STEM</span></strong><span style="font-size:13.5pt;font-family:'Arial', 'sans-serif';">.<span class="apple-converted-space"> </span><em style="box-sizing:border-box;"><span style="font-family:'Arial', 'sans-serif';">FIRST</span></em><span class="apple-converted-space"> </span>LEGO League Jr.* is designed to introduce STEM concepts to kids ages 6 to 9 while exciting them through a brand they know and love − LEGO<sup style="box-sizing:border-box;">®</sup>.</span></p>
+<p style="background:white;box-sizing:border-box;font-stretch:normal;orphans:auto;text-align:start;widows:1;word-spacing:0;margin:0 0 7.15pt;"><span style="font-size:13.5pt;font-family:'Arial', 'sans-serif';">Guided by two or more adult Coaches, teams (up to 6 members, grades K-3) explore a real-world scientific problem such as food safety, recycling, energy, etc. Then they create a<span class="apple-converted-space"> </span><em style="box-sizing:border-box;"><span style="font-family:'Arial', 'sans-serif';">Show Me</span></em><span class="apple-converted-space"><i> </i></span>poster that illustrates their journey of discovery and introduces their team. They also construct a motorized model of what they learned using LEGO elements. In the process, teams learn about teamwork, the wonders of science and technology, and the<span class="apple-converted-space"> <i>FIRST LEGO League Jr. Core Values</i></span>, which include respect, sharing, and critical thinking. At the close of each season, teams come together on a regional basis to strut their stuff, share ideas, celebrate, and have fun!</span></p>
+<p style="background:white;margin:0 0 7.15pt;"><span style="font-size:13.5pt;font-family:'Arial', 'sans-serif';">Information from <a href="http://www.firstinspires.org">www.firstinspires.org</a></span></p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-press-this"><a rel="nofollow" data-shared="" class="share-press-this sd-button share-icon" href="http://ftc3805atomicrobotics.com/first/jr-fll/?share=press-this" target="_blank" title="Click to Press This!"><span>Press This</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-117" class="share-twitter sd-button share-icon" href="http://ftc3805atomicrobotics.com/first/jr-fll/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-117" class="share-facebook sd-button share-icon" href="http://ftc3805atomicrobotics.com/first/jr-fll/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-117" class="share-google-plus-1 sd-button share-icon" href="http://ftc3805atomicrobotics.com/first/jr-fll/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-101980591-117-56d8d08a9083a' data-src='//widgets.wp.com/likes/#blog_id=101980591&amp;post_id=117&amp;origin=ftc3805atomicroboticsdotcom.wordpress.com&amp;obj_id=101980591-117-56d8d08a9083a' data-name='like-post-frame-101980591-117-56d8d08a9083a'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height:55px'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>			</div><!-- .entry-content -->
+	<footer class="entry-meta"><span class="edit-link"><a class="post-edit-link" href="https://wordpress.com/page/ftc3805atomicrobotics.com/117">Edit</a></span></footer></article><!-- #post-## -->
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	<div id="secondary" class="widget-area" role="complementary">
+		<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://ftc3805atomicrobotics.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/26/state-is-coming-up/">State is Coming&nbsp;Up</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/19/inter-league-the-results/">Inter-League: The Results</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/14/the-bot/">The Bot</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/07/inter-league-meet-in-nine-days/">Inter-League Meet in Nine&nbsp;Days!</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2015/12/15/league-meet-two/">League Meet Two</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1></aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+			<li><a href='http://ftc3805atomicrobotics.com/2016/01/'>January 2016</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/12/'>December 2015</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/11/'>November 2015</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://ftc3805atomicrobotics.com/category/uncategorized/" >Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/">Site Admin</a></li>			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=76076e9696">Log out</a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</aside>	</div><!-- #secondary -->
+
+	</div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+			<div id="tertiary" class="widget-areas clear" role="complementary">
+					<div class="widget-area">
+				<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://ftc3805atomicrobotics.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/26/state-is-coming-up/">State is Coming&nbsp;Up</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/19/inter-league-the-results/">Inter-League: The Results</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/14/the-bot/">The Bot</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2016/01/07/inter-league-meet-in-nine-days/">Inter-League Meet in Nine&nbsp;Days!</a>
+						</li>
+					<li>
+				<a href="http://ftc3805atomicrobotics.com/2015/12/15/league-meet-two/">League Meet Two</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-3" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1></aside><aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+			<li><a href='http://ftc3805atomicrobotics.com/2016/01/'>January 2016</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/12/'>December 2015</a></li>
+	<li><a href='http://ftc3805atomicrobotics.com/2015/11/'>November 2015</a></li>
+		</ul>
+		</aside><aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://ftc3805atomicrobotics.com/category/uncategorized/" >Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-3" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/">Site Admin</a></li>			<li><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=76076e9696">Log out</a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://ftc3805atomicrobotics.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a></li>			</ul>
+			</aside>			</div>
+							</div><!-- #tertiary -->
+		<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			<span class="sep"> | </span>
+			<a href="https://wordpress.com/themes/hemingway-rewritten/" title="Learn more about this theme">The Hemingway Rewritten Theme</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- wpcom_wp_footer -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		jQuery(document).ready( function($) {
+			function doFollowingHover() {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				$('#wp-admin-bar-follow > a').bind( 'mouseover.unfollow', function() {
+
+					$(this).html( "Unfollow" ).parent( 'li' ).addClass( 'unfollow' );
+				});
+				$('#wp-admin-bar-follow > a').bind( 'mouseout.unfollow', function() {
+					$(this).html( "Following" ).parent( 'li' ).removeClass( 'unfollow' );
+				});
+			}
+							doFollowingHover();
+			
+			$('#wp-admin-bar-follow > a').click( function( e ) {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				e.preventDefault();
+
+				var link = $( this ), li = $( '#wp-admin-bar-follow' ), timeout = 0;
+
+				if ( li.hasClass( 'subscribed' ) ) {
+					li.removeClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Follow" );
+
+					$('body').append( $( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble' );
+
+					var action = 'ab_unsubscribe_from_blog';
+				} else {
+					li.addClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Following" );
+
+						var left = 131 - link.width();
+						li.append( $( 'div.wpcom-bubble' ).css( { left: '-' + left + 'px' } ) );
+						$( 'div.bubble-txt', 'div.wpcom-bubble' ).html( "New posts from this blog will now appear in <a target=\"_blank\" href=\"http:\/\/wordpress.com\/\">your reader<\/a>. You can manage email alerts from your <a target=\"_blank\" href=\"http:\/\/wordpress.com\/following\/edit\/\">subscriptions page<\/a>." );
+
+						$( 'div.wpcom-bubble.action-bubble' ).addClass( 'fadein' );
+
+						setTimeout( function() {
+							$('body').on( 'click.bubble touchstart.bubble', function(e) {
+								if ( !$(e.target).hasClass('wpcom-bubble') && !$(e.target).parents( 'div.wpcom-bubble' ).length )
+									hideBubble();
+							});
+							setTimeout( hideBubble, 15000 );
+						}, 500 );
+
+					var action = 'ab_subscribe_to_blog';
+					$('#wp-admin-bar-follow > a').bind( 'mouseout.shift', function() {
+						doFollowingHover();
+						$(this).unbind( '.shift' );
+					});
+				}
+
+				var nonce = link.attr( 'href' ).split( '_wpnonce=' );
+				nonce = nonce[1];
+
+				$.post( "http:\/\/ftc3805atomicrobotics.com\/wp-admin\/admin-ajax.php", {
+					'action': action,
+					'_wpnonce': nonce,
+					'source': 'admin_bar',
+					'blog_id': 101980591				});
+			});
+		});
+	/* ]]> */
+	</script>
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201609y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":"0434274ff118de8fb4b8c2581ac0e701"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<div id="report-form-window" style="display:none;"></div>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"http:\/\/ftc3805atomicrobotics.com\/first\/jr-fll\/":117};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+				<iframe src='http://widgets.wp.com/likes/master.html?ver=20151208#ver=20151208&amp;mp6=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script type="text/javascript">
+		//<![CDATA[
+			var jetpackLikesWidgetQueue = [];
+			var jetpackLikesWidgetBatch = [];
+			var jetpackLikesMasterReady = false;
+
+			function JetpackLikespostMessage( message, target ) {
+				if ( "string" === typeof message ){
+					try{
+						message = JSON.parse( message );
+					}
+					catch(e) {
+						return;
+					}
+				}
+
+				pm( {
+					target: target,
+					type: 'likesMessage',
+					data: message,
+					origin: '*'
+				} );
+			}
+
+			function JetpackLikesBatchHandler() {
+				var requests = [];
+				jQuery( 'div.jetpack-likes-widget-unloaded' ).each( function( i ) {
+					if ( jetpackLikesWidgetBatch.indexOf( this.id ) > -1 )
+						return;
+					jetpackLikesWidgetBatch.push( this.id );
+					var regex = /like-(post|comment)-wrapper-(\d+)-(\d+)-(\w+)/;
+					var match = regex.exec( this.id );
+					if ( ! match || match.length != 5 )
+						return;
+
+					var info = {
+						blog_id: match[2],
+						width:   this.width
+					};
+
+					if ( 'post' == match[1] ) {
+						info.post_id = match[3];
+					} else if ( 'comment' == match[1] ) {
+						info.comment_id = match[3];
+					}
+
+					info.obj_id = match[4];
+
+					requests.push( info );
+				});
+
+				if ( requests.length > 0 ) {
+					JetpackLikespostMessage( { event: 'initialBatch', requests: requests }, window.frames['likes-master'] );
+				}
+			}
+
+			function JetpackLikesMessageListener( event ) {
+				if ( "undefined" == typeof event.event )
+					return;
+
+				if ( 'masterReady' == event.event ) {
+					jQuery( document ).ready( function() {
+						jetpackLikesMasterReady = true;
+
+						var stylesData = {
+								event: 'injectStyles'
+						};
+
+						if ( jQuery( 'iframe.admin-bar-likes-widget' ).length > 0 ) {
+							JetpackLikespostMessage( { event: 'adminBarEnabled' }, window.frames[ 'likes-master' ] );
+
+							stylesData.adminBarStyles = {
+								background: jQuery( '#wpadminbar .quicklinks li#wp-admin-bar-wpl-like > a' ).css( 'background' ),
+								isRtl: ( 'rtl' == jQuery( '#wpadminbar' ).css( 'direction' ) )
+							};
+						}
+
+						if ( !window.addEventListener )
+							jQuery( '#wp-admin-bar-admin-bar-likes-widget' ).hide();
+
+						stylesData.textStyles = {
+							color: jQuery( '.sd-text-color').css( 'color' ),
+							fontFamily: jQuery( '.sd-text-color' ).css( 'font-family' ),
+							fontSize: jQuery( '.sd-text-color' ).css( 'font-size' ),
+							direction: jQuery( '.sd-text-color' ).css( 'direction' ),
+							fontWeight: jQuery( '.sd-text-color' ).css( 'font-weight' ),
+							fontStyle: jQuery( '.sd-text-color' ).css( 'font-style' ),
+							textDecoration: jQuery( '.sd-text-color' ).css('text-decoration')
+						};
+
+						stylesData.linkStyles = {
+							color: jQuery( '.sd-link-color' ).css('color'),
+							fontFamily: jQuery( '.sd-link-color' ).css('font-family'),
+							fontSize: jQuery( '.sd-link-color' ).css('font-size'),
+							textDecoration: jQuery( '.sd-link-color' ).css('text-decoration'),
+							fontWeight: jQuery( '.sd-link-color' ).css( 'font-weight' ),
+							fontStyle: jQuery( '.sd-link-color' ).css( 'font-style' )
+						};
+
+						JetpackLikespostMessage( stylesData, window.frames[ 'likes-master' ] );
+
+						JetpackLikesBatchHandler();
+
+						jQuery( document ).on( 'inview', 'div.jetpack-likes-widget-unloaded', function() {
+							jetpackLikesWidgetQueue.push( this.id );
+						});
+					});
+				}
+
+				if ( 'showLikeWidget' == event.event ) {
+					jQuery( '#' + event.id + ' .post-likes-widget-placeholder'  ).fadeOut( 'fast', function() {
+						jQuery( '#' + event.id + ' .post-likes-widget' ).fadeIn( 'fast', function() {
+							JetpackLikespostMessage( { event: 'likeWidgetDisplayed', blog_id: event.blog_id, post_id: event.post_id, obj_id: event.obj_id }, window.frames['likes-master'] );
+						});
+					});
+				}
+
+				if ( 'clickReblogFlair' == event.event ) {
+					wpcom_reblog.toggle_reblog_box_flair( event.obj_id );
+				}
+
+				if ( 'showOtherGravatars' == event.event ) {
+					var $container = jQuery( '#likes-other-gravatars' );
+					var $list = $container.find( 'ul' );
+
+					$container.hide();
+					$list.html( '' );
+
+					$container.find( '.likes-text span' ).text( event.total );
+
+					jQuery.each( event.likers, function( i, liker ) {
+						$list.append( '<li class="' + liker.css_class + '"><a href="' + liker.profile_URL + '" class="wpl-liker" rel="nofollow" target="_parent"><img src="' + liker.avatar_URL + '" alt="' + liker.name + '" width="30" height="30" style="padding-right: 3px;" /></a></li>');
+					} );
+
+					var offset = jQuery( "[name='" + event.parent + "']" ).offset();
+
+					$container.css( 'left', offset.left + event.position.left - 10 + 'px' );
+					$container.css( 'top', offset.top + event.position.top - 33 + 'px' );
+
+					var rowLength = Math.floor( event.width / 37 );
+					var height = ( Math.ceil( event.likers.length / rowLength ) * 37 ) + 13;
+					if ( height > 204 ) {
+						height = 204;
+					}
+
+					$container.css( 'height', height + 'px' );
+					$container.css( 'width', rowLength * 37 - 7 + 'px' );
+
+					$list.css( 'width', rowLength * 37 + 'px' );
+
+					$container.fadeIn( 'slow' );
+
+					var scrollbarWidth = $list[0].offsetWidth - $list[0].clientWidth;
+					if ( scrollbarWidth > 0 ) {
+						$container.width( $container.width() + scrollbarWidth );
+						$list.width( $list.width() + scrollbarWidth );
+					}
+				}
+			}
+
+			pm.bind( 'likesMessage', function(e) { JetpackLikesMessageListener(e); } );
+
+			jQuery( document ).click( function( e ) {
+				var $container = jQuery( '#likes-other-gravatars' );
+
+				if ( $container.has( e.target ).length === 0 ) {
+					$container.fadeOut( 'slow' );
+				}
+			});
+
+			function JetpackLikesWidgetQueueHandler() {
+				var wrapperID;
+				if ( ! jetpackLikesMasterReady ) {
+					setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+					return;
+				}
+
+				if ( jetpackLikesWidgetQueue.length > 0 ) {
+					// We may have a widget that needs creating now
+					var found = false;
+					while( jetpackLikesWidgetQueue.length > 0 ) {
+						// Grab the first member of the queue that isn't already loading.
+						wrapperID = jetpackLikesWidgetQueue.splice( 0, 1 )[0];
+						if ( jQuery( '#' + wrapperID ).hasClass( 'jetpack-likes-widget-unloaded' ) ) {
+							found = true;
+							break;
+						}
+					}
+					if ( ! found ) {
+						setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+						return;
+					}
+				} else if ( jQuery( 'div.jetpack-likes-widget-unloaded' ).length > 0 ) {
+					// Grab any unloaded widgets for a batch request
+					JetpackLikesBatchHandler();
+
+					// Get the next unloaded widget
+					wrapperID = jQuery( 'div.jetpack-likes-widget-unloaded' ).first()[0].id;
+					if ( ! wrapperID ) {
+						// Everything is currently loaded
+						setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+						return;
+					}
+				}
+
+				if ( 'undefined' === typeof wrapperID ) {
+					setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+					return;
+				}
+
+				var $wrapper = jQuery( '#' + wrapperID );
+				$wrapper.find( 'iframe' ).remove();
+
+				if ( $wrapper.hasClass( 'slim-likes-widget' ) ) {
+					$wrapper.find( '.post-likes-widget-placeholder' ).after( "<iframe class='post-likes-widget jetpack-likes-widget' name='" + $wrapper.data( 'name' ) + "' height='22px' width='68px' frameBorder='0' scrolling='no' src='" + $wrapper.data( 'src' ) + "'></iframe>" );
+				} else {
+					$wrapper.find( '.post-likes-widget-placeholder' ).after( "<iframe class='post-likes-widget jetpack-likes-widget' name='" + $wrapper.data( 'name' ) + "' height='55px' width='100%' frameBorder='0' src='" + $wrapper.data( 'src' ) + "'></iframe>" );
+				}
+
+				$wrapper.removeClass( 'jetpack-likes-widget-unloaded' ).addClass( 'jetpack-likes-widget-loading' );
+
+				$wrapper.find( 'iframe' ).load( function( e ) {
+					var $iframe = jQuery( e.target );
+					$wrapper.removeClass( 'jetpack-likes-widget-loading' ).addClass( 'jetpack-likes-widget-loaded' );
+
+					JetpackLikespostMessage( { event: 'loadLikeWidget', name: $iframe.attr( 'name' ), width: $iframe.width() }, window.frames[ 'likes-master' ] );
+
+					if ( $wrapper.hasClass( 'slim-likes-widget' ) ) {
+						$wrapper.find( 'iframe' ).Jetpack( 'resizeable' );
+					}
+				});
+				setTimeout( JetpackLikesWidgetQueueHandler, 250 );
+			}
+			JetpackLikesWidgetQueueHandler();
+		//]]>
+		</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"http:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpNotesArgs = {"cacheBuster":"20150825","iframeUrl":"https:\/\/widgets.wp.com\/notifications\/","iframeAppend":"2","iframeScroll":"no","wide":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcom_tos_report_form = {"ajaxurl":"\/wp-admin\/admin-ajax.php","isLoggedoutUser":"","post_ID":"117","current_url":"http:\/\/ftc3805atomicrobotics.com\/first\/jr-fll","report_this_content":"Report this content"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"101980591","siteName":"FTC Atomic Robotics 3805","siteURL":"http:\/\/ftc3805atomicrobotics.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/void.gif' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"1","canCustomizeSite":"1","isFollowing":"1","themeSlug":"pub\/hemingway-rewritten","themeURL":"https:\/\/wordpress.com\/themes\/hemingway-rewritten\/","xhrURL":"http:\/\/ftc3805atomicrobotics.com\/wp-admin\/admin-ajax.php","nonce":"3aa4525fbb","isSingular":"1","isFolded":"","customizeLink":"https:\/\/ftc3805atomicroboticsdotcom.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fftc3805atomicroboticsdotcom.wordpress.com%2Ffirst%2Fjr-fll%2F","postID":"117","shortlink":"http:\/\/wp.me\/P6TTOf-1T","canEditPost":"1","editLink":"https:\/\/wordpress.com\/page\/ftc3805atomicrobotics.com\/117","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Hemingway Rewritten","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage Sites I Follow"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJydkt1uwjAMhV9oIQMxbbuY9ixpaqjbJo4Sp4W3n6ONriBWYDd1an/Hzs/RY1CWPINn3SZdw4AWwmHVpictJfS2zzWkUuMGbVfRYVpcg0zt0KvKxJXEE3Aa4LIKfd6jn3FSt+TUr+5vjXBOUqrH7ntYj5VOIwZ4RHSWuBRyA06wkCstK/T70RxVhDEiS73Ir6Qfb+LNgHvDSP/Qpg6DbN53akc2J7XDw8LxwVGLmsezeJNvgYOxnbqPPqPmZsi+hpgsRZi7YU5UpjjJwzW3SNnlxMY2S+/rieHnq8rTklfD5iY/2W0ZZkpy+YEiy2VHd/l/l7+dSQyxjKIBYsRy8im31MEWf5QO02qBDpRkT73BqFNjohjnFEX06T7W25fN6/pt+/zefgGXcHtt'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['identifyUser', 96878246, 'atomicrobotics3805']);
+_tkq.push(['storeContext', {'blog_id':'101980591','blog_tz':'0','user_lang':'en','blog_lang':'en'}]);
+_stq.push(['view', {'blog':'101980591','v':'wpcom','tz':'0','user':'1','user_id':'96878246','post':'117','subd':'ftc3805atomicroboticsdotcom'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1zNDZ8S252Wis9XUQyb3YrcUVIU2R0VH5TdXIyfFgyfjVBN0lIeEpROGxdTnl0NVVYdjNTZURNdE02OUdKNkUyY0E5bXUzSWdEL3dpVCt8Py5wWUJ6elA3Smh2MlZBbmdlaXVmRC1iSiVYNkVLWEV0S2QuLUlYVD9FSVJNLV9MdzZ0VXp2bkFteHVqU3RDZnhmfkhQM202TExVMGovUmomRmF1UE5jN0xteEptUmNEWXBxdEhLNnV0JUFjPVdkPTVxWU1CRHxvWz1lLG5sJkZDUUNVenZtWzFjOXh0SV05aVtMQVIyLW5NWXJSS0pNWlM5K0hFaHZbSitzOWlSaTRvQ0F6SE89a0gvRmhLZiY9ZVt+aFpWOFpZTlo/fjl+MmM/aTAsdDU/'}]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+		<div id="wpadminbar" class="nojq nojs ltr">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+						<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+			
+		<li id="wp-admin-bar-blog" class="menupop my-sites"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/stats/ftc3805atomicrobotics.com">My Site</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-blog-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-blog-info" class="current-site">		<div class="ab-item ab-empty-item" ><div class="ab-site-icon"></div><span class="ab-site-title">FTC Atomic Robotics &hellip;</span><span class="ab-site-description">ftc3805atomicrobotics.com</span></div>		</li>
+		<li id="wp-admin-bar-new-site"><a class="ab-item"  href="https://wordpress.com/start?ref=admin-bar-logged-in">+ Add New WordPress</a>		</li>
+		<li id="wp-admin-bar-blog-stats" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/stats/ftc3805atomicrobotics.com">Stats <img style="width: 95px; margin: 0; float: right;" src="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-includes/charts/admin-bar-hours-scale-2x.php?masterbar=1" alt="Stats" title="Showing site views per hour for the last 48 hours. Click for full Site Stats." /></a>		</li>
+		<li id="wp-admin-bar-plan" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/plans/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-plan">Plan</a><a href="https://wordpress.com/plans/ftc3805atomicrobotics.com" class="secondary" id="wp-admin-bar-plan-badge">Free</a></div>		</li>		</ul>
+			<ul id="wp-admin-bar-publish" class="ab-submenu">
+			
+		<li id="wp-admin-bar-publish-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Publish</div>		</li>
+		<li id="wp-admin-bar-new-post" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/posts/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-post">Blog Posts</a><a href="https://wordpress.com/post/ftc3805atomicrobotics.com" class="secondary" id="wp-admin-bar-new-post">Add</a></div>		</li>
+		<li id="wp-admin-bar-new-page" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/pages/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-page">Pages</a><a href="https://wordpress.com/page/ftc3805atomicrobotics.com" class="secondary" id="wp-admin-bar-new-page">Add</a></div>		</li>
+		<li id="wp-admin-bar-new-jetpack-testimonial" class="mb-icon"><a class="ab-item"  href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/edit.php?post_type=jetpack-testimonial">Testimonials</a>		</li>
+		<li id="wp-admin-bar-new-jetpack-portfolio" class="mb-icon"><a class="ab-item"  href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/edit.php?post_type=jetpack-portfolio">Portfolio</a>		</li>		</ul>
+			<ul id="wp-admin-bar-look-and-feel" class="ab-submenu">
+			
+		<li id="wp-admin-bar-look-and-feel-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Personalize</div>		</li>
+		<li id="wp-admin-bar-themes" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/design/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-themes">Themes</a><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fftc3805atomicroboticsdotcom.wordpress.com%2Ffirst%2Fjr-fll%2F" class="secondary" id="wp-admin-bar-cmz">Customize</a></div>		</li>
+		<li id="wp-admin-bar-menus" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/menus/ftc3805atomicrobotics.com">Menus</a>		</li>		</ul>
+			<ul id="wp-admin-bar-configuration" class="ab-submenu">
+			
+		<li id="wp-admin-bar-configuration-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Configure</div>		</li>
+		<li id="wp-admin-bar-sharing" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/sharing/ftc3805atomicrobotics.com">Sharing</a>		</li>
+		<li id="wp-admin-bar-users-toolbar" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/people/team/ftc3805atomicrobotics.com" class="ab-item primary mb-icon" id="wp-admin-bar-people">People</a><a href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-admin/users.php?page=wpcom-invite-users" class="secondary" id="wp-admin-bar-people-add">Add</a></div>		</li>
+		<li id="wp-admin-bar-domains" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/domains/ftc3805atomicrobotics.com">Domains</a>		</li>
+		<li id="wp-admin-bar-blog-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/settings/general/ftc3805atomicrobotics.com">Settings</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-jumptotop-button-menu"><a class="ab-item"  href="#"><div id="jumptotop"><span class="noticon noticon-top"></span></div></a>		</li>
+		<li id="wp-admin-bar-newdash" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/">Reader</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-newdash-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-streams-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Streams</div>		</li>
+		<li id="wp-admin-bar-following" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/" class="ab-item primary mb-icon" id="wp-admin-bar-followed-sites">Followed Sites</a><a href="https://wordpress.com/following/edit" class="secondary">Manage</a></div>		</li>
+		<li id="wp-admin-bar-discover-discover" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/discover">Discover</a>		</li>
+		<li id="wp-admin-bar-discover-recommended-blogs" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/recommendations">Recommendations</a>		</li>
+		<li id="wp-admin-bar-my-activity-my-likes" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/activities/likes">My Likes</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-admin-bar-likes-widget">		<div class="ab-item ab-empty-item" ></div><iframe class='admin-bar-likes-widget jetpack-likes-widget' scrolling='no' frameBorder='0' name='admin-bar-likes-widget' src='http://widgets.wp.com/likes/#blog_id=101980591&amp;post_id=117&amp;origin=http://ftc3805atomicroboticsdotcom.wordpress.com'></iframe>		</li>		</ul>
+			<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+			
+		<li id="wp-admin-bar-notes" class="menupop">		<div class="ab-item ab-empty-item" ><span id="wpnt-notes-unread-count" class="wpnt-loading wpn-read"></span><span class="noticon noticon-bell"></span><span class="ab-text">Notifications</span></div><div id="wpnt-notes-panel2" style="display:none" lang="en" dir="ltr"><div class="wpnt-notes-panel-header"><span class="wpnt-notes-header"></span><span class="wpnt-notes-panel-link"></span></div></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/me/"><img alt='' src='http://0.gravatar.com/avatar/0434274ff118de8fb4b8c2581ac0e701?s=32&#038;d=mm&#038;r=G' class='avatar avatar-32' height='32' width='32' /><span class="ab-text">Me</span></a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-user-actions" class="ab-submenu">
+			
+		<li id="wp-admin-bar-user-info" class="user-info user-info-item">		<div class="ab-item ab-empty-item" tabindex="-1"><img alt='' src='http://0.gravatar.com/avatar/0434274ff118de8fb4b8c2581ac0e701?s=128&#038;d=mm&#038;r=G' class='avatar avatar-128' height='128' width='128' /><span class="display-name">atomicrobotics3805</span><a class="username" href="http://gravatar.com/atomicrobotics3805">@atomicrobotics3805</a><form action="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fftc3805atomicrobotics.com%2F&amp;_wpnonce=76076e9696" method="post"><button class="ab-sign-out" type="submit">Sign Out</button></form></div>		</li>
+		<li id="wp-admin-bar-profile-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Profile</div>		</li>
+		<li id="wp-admin-bar-my-profile" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me">My Profile</a>		</li>
+		<li id="wp-admin-bar-account-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/account">Account Settings</a>		</li>
+		<li id="wp-admin-bar-billing" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/billing">Billing History</a>		</li>
+		<li id="wp-admin-bar-security" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/security">Security</a>		</li>
+		<li id="wp-admin-bar-notifications" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/notifications">Notifications</a>		</li>
+		<li id="wp-admin-bar-special-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Special</div>		</li>
+		<li id="wp-admin-bar-get-apps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/get-apps">Get Apps</a>		</li>
+		<li id="wp-admin-bar-next-steps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/next">Next Steps</a>		</li>
+		<li id="wp-admin-bar-help" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/help">Help</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-ab-new-post"><a class="ab-item"  href="http://wordpress.com/post/ftc3805atomicrobotics.com"></a>		</li>		</ul>
+				</div>
+							<a class="screen-reader-shortcut" href="https://ftc3805atomicroboticsdotcom.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=76076e9696">Log Out</a>
+					</div>
+
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var clickDebugLink;
+
+jQuery(document).ready( function($) {
+	var single = false, w = 1000,
+		supe = false;
+
+	$(document.body).load(function(){ $('#wpadminbar img.grav-hashed').removeClass('grav-hashed'); }); // hack to hide the gravatar hovercard
+
+	if ( single && supe )
+		w = 1385;
+	else if ( supe )
+		w = 1200;
+
+	// debug bar extra
+	clickDebugLink = function( parent_id, obj ) {
+
+		$('#'+parent_id).children('div').hide();
+
+		document.getElementById( obj.href.substr( obj.href.indexOf( '#' ) + 1 ) ).style.display = 'block';
+		$( obj.href.substr( obj.href.indexOf( '#' ) ) ).show()
+
+		$(obj).parent().addClass('current').siblings('li').removeClass('current');
+
+		return false;
+	};
+
+	$( '#wpadminbar #wp-admin-bar-shortlink' ).click( function() {
+		$( '#adminbar-shortlink-input' ).select();
+	});
+
+	// skip tap-to-hover on site switcher for mobile
+	if ( 'ontouchstart' in window ) {
+		$('#wp-admin-bar-switch-site').on( 'touchstart', function( event ) {
+			if ( $( window ).width() > 782 ) {
+				return;
+			}
+			event.stopPropagation();
+			$( event.target ).first( 'a' ).click();
+		});
+	}
+
+});
+/* ]]> */
+</script>
+	<div class="wpcom-bubble action-bubble">
+		<div class="bubble-txt"></div>
+	</div>
+	<script type="text/javascript">function hideBubble() { jQuery('body').append( jQuery( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble touchstart.bubble' ); jQuery(document).off( 'scroll.bubble' ); };</script>
+		<script type="text/javascript">
+	jQuery( '#wp-admin-bar-jumptotop-button-menu a' ).click( function( e ) {
+		e.preventDefault();
+		jQuery( 'html, body' ).animate( { scrollTop: 0 }, 'fast' );
+	} );
+	function hideShowTbJumpToTop() {
+		var total_width = 0;
+		// Calculate total width taken by items minus our button to see if it'll
+		// overlap with other toolbar menus.
+		jQuery( '#wp-admin-bar-root-default > li' ).each( function() {
+			var self = jQuery( this );
+			if ( 'wp-admin-bar-jumptotop-button-menu' != self.attr( 'id' ) )
+				total_width += self.width();
+		});
+		if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() >= 350 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) < 0 ) {
+			if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 )
+			   return;
+			jQuery( '#jumptotop' ).animate( { 'top': 0 }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() < 1 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) >= 0 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		}
+	}
+	// handle on page load if auto scrolling to a position
+	hideShowTbJumpToTop();
+	// bind to scrolll event
+	var jumpToTopTimer = null;
+	jQuery( window ).scroll( function() {
+		clearTimeout( jumpToTopTimer );
+		jumpToTopTimer = setTimeout( jumpToTopRefresh, 150 );
+	} );
+	var jumpToTopRefresh = function() {
+		hideShowTbJumpToTop();
+	};
+	</script>
+	<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
