@@ -1,1 +1,68 @@
+#include <SPI.h>
+#include <SD.h>
 
+// Seed CS is 10
+const int CHIP_SELECT = 10;
+const int ONE_SECOND = 150;
+
+const int D2_OUTPUT_PIN = 2;
+
+const int A0_SENSOR_PIN = A0;
+const int A1_SENSOR_PIN = A1;
+
+const int ONE_SECOND = 1000;
+
+int A0Value = 0;
+int A1Value = 0;
+
+float reportedTetrixVoltage = 0.0;
+float reportedVoltage1 = 0.0;
+
+void setup() {
+  Serial.begin(9600);
+  analogReference(INTERNAL);
+  pinMode(D2OutputPin, OUTPUT);
+  digitalWrite(D2OutputPin, HIGH);
+  
+  if(!SD.begin(chipSelect)){
+    Serial.println("Card failed, or not present");
+    return;
+  }
+  Serial.println("Card initialized");
+  delay(1000);
+}
+
+void loop() {
+  String dataString = "";
+  
+  A0Value = analogRead(A0SensorPin);
+  A1Value = analogRead(A1SensorPin);
+  
+  reportedVoltage = A0Value * 1.1 / 1024 * 15.914;
+  reportedVoltage1 = A1Value * 1.1 / 1024 / 0.0439;
+  
+  File dataFile = SD.open("datalog.txt", FILE_WRITE);
+  
+  if(dataFile){
+    dataFile.print(String(reportedVoltage));
+    dataFile.print("  ");
+    dataFile.println(String(reportedVoltage1));
+    dataFile.close();
+  }
+  else{
+    Serial.println("Error openeing file");
+  }
+  
+  Serial.print(reportedVoltage);
+  Serial.print("  ");
+  Serial.println(reportedVoltage1);
+  Serial.println(A1Value);
+  
+  if(reportedVoltage <= 11){
+    Serial.println("Turn off");
+    digitalWrite(2, LOW);
+    delay(15000);
+  }
+  
+  delay(wait15Sec);
+}
