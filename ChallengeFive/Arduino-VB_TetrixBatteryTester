@@ -1,0 +1,148 @@
+#include <SPI.h>
+#include <SD.h>
+
+// Seed CS for SD card reader is 10
+const int CHIP_SELECT = 10;
+
+// Turns load (the headlight) on and off
+// by controlling the transistor that controls the relay
+const int D2_OUTPUT_PIN = 2;
+
+// records the battery voltage
+const int A0_SENSOR_PIN = A0;
+
+// records the current drawn by the load
+const int A1_SENSOR_PIN = A1;
+
+const long ONE_SECOND = 1000;
+const long wait15Sec = 15000;
+unsigned long previousMillis = 0;
+
+unsigned long sessionStart = 0;
+unsigned long sessionLength;
+
+int A0Value = 0;
+int A1Value = 0;
+
+float reportedTetrixVoltage = 0.0;
+float reportedAmps = 0.0;
+
+boolean StopTriggered = true;
+
+void setup() {
+  // initialize com port to display data on a PC
+  Serial.begin(9600);
+  // set analog input full scale range down to 1.1 V
+  // to increase resolution as Analog 1 is only expected
+  // to reach 0.2 volts
+  analogReference(INTERNAL);
+  // configure digital pin 2 to output 0 or 5 volts
+  pinMode(D2_OUTPUT_PIN, OUTPUT);
+  //  initialize pin 2 to turn on load
+  digitalWrite(D2_OUTPUT_PIN, LOW);
+
+  // Check if SD card is present and works
+  if (!SD.begin(CHIP_SELECT)) {
+    Serial.println("Card failed, or not present");
+    return;
+  }
+  Serial.println("Card initialized");
+  delay(ONE_SECOND);
+}
+
+void loop() {
+  // VB serial commands
+  if (Serial.available()) {
+    int VBval = Serial.read() - '0'; // deduct ascii value of '0' to find numeric value of sent number
+    switch (VBval) {
+      case 0: //STOP button
+        sessionLength = millis() - sessionStart;
+        writeToSD("STOP clicked. Session running for " + String(sessionLength / ONE_SECOND) + " seconds.");
+        StopTriggered = true;
+        digitalWrite(2, LOW);
+
+        break;
+      case 1: //START button
+        sessionStart = millis();
+        writeToSD("START clicked");
+        StopTriggered = false;
+        digitalWrite(2, HIGH);
+
+        break;
+      case 2: //Record button
+        writeToSD("Record clicked");
+        recordVoltageValue();
+        break;
+      case 3: //Clear log button
+        writeToSD("Clear clicked");
+        SD.remove("datalog.txt");
+        break;
+    }
+  }
+
+  // For 15 sec delay
+  unsigned long currentMillis = millis();
+  if (currentMillis - previousMillis >= wait15Sec && !StopTriggered) {
+    previousMillis = currentMillis;
+
+    // holds current value of analog inputs
+    String dataString = "";
+
+    // read the analog inputs
+    A0Value = analogRead(A0_SENSOR_PIN);
+    A1Value = analogRead(A1_SENSOR_PIN);
+
+    // convert the input to voltage,
+    // voltage divider factor of 15.914 reduces 12 volt battery
+    // to less than the 1.1 Volt input range
+    reportedTetrixVoltage = A0Value * 1.1 / 1024 * 15.914;
+
+    // convert the input to amps, R of shunt is 0.0439 ohms
+    reportedAmps = A1Value * 1.1 / 1024 / 0.0439;
+
+    recordVoltageValue();
+
+    // output data on display of PC
+    Serial.print(reportedTetrixVoltage);
+    Serial.print("  ");
+    Serial.println(reportedAmps);
+    Serial.println(A1Value);
+
+    // turn off load (headlight) when battery is discharged
+    // to allowable limit
+    if (reportedTetrixVoltage <= 11) {
+      sessionLength = millis() - sessionStart;
+      writeToSD("Battery discharged in " + sessionLength / ONE_SECOND);
+      Serial.println("Turn off");
+      digitalWrite(2, LOW);
+      StopTriggered = true;
+      //delay(15000);
+    }
+  }
+}
+
+void recordVoltageValue() {
+  File dataFile = SD.open("datalog.txt", FILE_WRITE);
+
+  // if able to create/open file on SD card, write data
+  if (dataFile) {s
+    dataFile.println(String(reportedTetrixVoltage) + " Volts, " + String(reportedAmps) + "Amps");
+    dataFile.close();
+  }
+  else {
+    Serial.println("Error opening file");
+  }
+}
+
+void writeToSD(String text) {
+  File dataFile = SD.open("datalog.txt", FILE_WRITE);
+
+  // if able to create/open file on SD card, write data
+  if (dataFile) {
+    dataFile.println(text);
+    dataFile.close();
+  }
+  else {
+    Serial.println("Error opening file");
+  }
+}
